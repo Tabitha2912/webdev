@@ -1,0 +1,164 @@
+.navbar-brand img{
+    max-width: 200px;
+}
+.nav-item{
+    padding-right: 25px;
+    font-size: 17px;
+}
+.container h1{ 
+    font-size: 4.6vw;
+    padding: 35px 0px 50px;
+}
+.text1{
+    font-size: 1.4vw;
+    padding-bottom: 30px;
+}
+.text3{
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding: 50px 0px 10px;
+}
+.text4{
+    padding-right: 1.5rem;
+    font-size: 15px;
+}
+.custom-form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 80px;
+}
+.custom-button {
+    background-color: #65D777;
+    color: white;
+    width: 120px;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 0.4px 1px rgba(0, 0, 0, 0.4);
+}
+.custom-input{
+    height: 50px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.4);
+}
+.w1{
+    width: 430px;
+}
+.w2{
+    width: 390px;
+}
+.custom-input::placeholder {
+    font-size: 17px; 
+}
+.form-control{
+    width: 30%;
+}
+.desc{
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.card-title1{
+    padding-top: 30px;
+    font-weight: normal;
+}
+.card-title2{
+    padding-top: 45px;
+    font-weight: normal;
+}
+.img-list{
+    width: 110px;
+    height: 110px;
+}
+.biodata{
+    margin: 0px 0px 0px -40px;
+    text-align: left;
+    color: #778298;
+}
+.container-profil{
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    flex: 1;
+    padding-top: 40px;
+    /* border: 1px solid #000; */
+    text-align: center;
+ }
+ .border-top {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(0,0,0,.125);
+}
+
+.profil-img{
+    width: 15%;
+    float: left;
+}
+.profil-desc{
+    width: 35%;
+    font-size: 15px;
+    float: left;
+    padding-left: 4%;
+}
+.send-email{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.email-box{
+    width: 55%;
+    height: 200px;
+    margin: 100px 0px 100px;
+    padding: 40px 0px 0px 30px;
+}
+.footer{
+    padding: 25px 0px 25px;
+}
+
+/* Decoration */
+.center{
+    text-align: center; 
+}
+.content-center{
+    display: flex;
+    justify-content: center; /* Pusatkan horizontal */
+    align-items: center; /* Pusatkan vertikal */
+}
+.border-none{
+    border: none;
+}
+
+/* Background color */
+.bg-light-gray {
+    background: #F3F4F6;
+}
+.bg-white {
+    background: white;
+}
+
+/* Text color */
+.dark-blue {
+    color: #091836;
+}
+.red {
+    color: #DE3F1C;
+}
+.slate{
+    color: #38404F;
+}
+.med-grey {
+    color: #778298;
+}
+.grey {
+    color: #949EB2;
+}
+
+/* font */
+.serif{
+    font-family: "source-serif-pro";
+}
+.bold{
+    font-weight: bold;
+}

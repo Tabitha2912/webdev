@@ -1,0 +1,165 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Online Shop</title>
+</head>
+<style>
+  /* Gaya untuk tombol Floating Page Down */
+  #page-down-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  .print-struk{
+    margin-left: 90px;
+  }
+</style>
+<body>
+
+<!-- Navbar menggunakan Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar" style="background-color: #EAD9EB;">
+  <a class="navbar-brand" href="#">
+    <img src="Assets/Logo.png" alt="Logo" height="50" style="height: 70px;"> <!-- Tambahkan elemen <img> untuk logo -->
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row" id="produk-container">
+         <!-- Produk akan ditambahkan di sini melalui JavaScript -->
+      </div>
+    </div>
+    
+    <!-- Tombol Page Down -->
+    <div class="col-md-1 mt-auto mb-4">
+      <button class="btn btn-primary btn-md float-left" id="page-down-button">
+        Cart
+      </button>
+    </div>
+    
+    
+    <div class="col-md-12">
+      <h2>Cart</h2>
+      <div class="row" id="cart-container">
+          <!-- Produk akan ditambahkan di sini melalui JavaScript -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tombol Tampilkan Total Bayar -->
+<div class="col-md-2 mt-auto mb-4 print-struk">
+    <button class="btn btn-success btn-md" id="show-total-button" data-toggle="modal" data-target="#totalBayarModal">Print Struk</button>
+</div>
+<div class="modal fade" id="totalBayarModal" tabindex="-1" role="dialog" aria-labelledby="totalBayarModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="totalBayarModalLabel">Struk Pembelian</h5>
+      </div>
+      <div class="modal-body">
+        <h6>Detail Produk:</h6>
+        <ul id="produkList" class="list-group"></ul>
+        <hr>
+        <p id="totalBayarText"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Online Shop</title>
+</head>
+<style>
+  /* Gaya untuk tombol Floating Page Down */
+  #page-down-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  .print-struk{
+    margin-left: 90px;
+  }
+</style>
+<body>
+
+<!-- Navbar menggunakan Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar" style="background-color: #EAD9EB;">
+  <a class="navbar-brand" href="#">
+    <img src="Assets/Logo.png" alt="Logo" height="50" style="height: 70px;"> <!-- Tambahkan elemen <img> untuk logo -->
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row" id="produk-container">
+         <!-- Produk akan ditambahkan di sini melalui JavaScript -->
+      </div>
+    </div>
+    
+    <!-- Tombol Page Down -->
+    <div class="col-md-1 mt-auto mb-4">
+      <button class="btn btn-primary btn-md float-left" id="page-down-button">
+        Cart
+      </button>
+    </div>
+    
+    
+    <div class="col-md-12">
+      <h2>Cart</h2>
+      <div class="row" id="cart-container">
+          <!-- Produk akan ditambahkan di sini melalui JavaScript -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tombol Tampilkan Total Bayar -->
+<div class="col-md-2 mt-auto mb-4 print-struk">
+    <button class="btn btn-success btn-md" id="show-total-button" data-toggle="modal" data-target="#totalBayarModal">Print Struk</button>
+</div>
+<div class="modal fade" id="totalBayarModal" tabindex="-1" role="dialog" aria-labelledby="totalBayarModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="totalBayarModalLabel">Struk Pembelian</h5>
+      </div>
+      <div class="modal-body">
+        <h6>Detail Produk:</h6>
+        <ul id="produkList" class="list-group"></ul>
+        <hr>
+        <p id="totalBayarText"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+>>>>>>> 285d17b85c951296e3773531466df99650460303

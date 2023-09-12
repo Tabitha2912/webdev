@@ -1,0 +1,107 @@
+<<<<<<< HEAD
+{
+  "produk": [
+    {
+      "nama": "Produk 1",
+      "harga": 150000,
+      "gambar": "baju.jpg",
+      "deskripsi": "Deskripsi Produk 1"
+    },
+    {
+      "nama": "Produk 2",
+      "harga": 13000,
+      "gambar": "jepit.jpg",
+      "deskripsi": "Deskripsi Produk 2"
+    },
+    {
+      "nama": "Produk 3",
+      "harga": 80000,
+      "gambar": "tas.jpg",
+      "deskripsi": "Deskripsi Produk 3"
+    },
+    {
+      "nama": "Produk 4",
+      "harga": 20000,
+      "gambar": "gelas.jpg",
+      "deskripsi": "Deskripsi Produk 4"
+    },
+    {
+      "nama": "Produk 5",
+      "harga": 30000,
+      "gambar": "anting.jpg",
+      "deskripsi": "Deskripsi Produk 3"
+    },
+    {
+      "nama": "Produk 6",
+      "harga": 15000,
+      "gambar": "penghangat.jpg",
+      "deskripsi": "Deskripsi Produk 4"
+    },
+    {
+      "nama": "Produk 7",
+      "harga": 50000,
+      "gambar": "sandal.jpg",
+      "deskripsi": "Deskripsi Produk 3"
+    },
+    {
+      "nama": "Produk 8",
+      "harga": 25000,
+      "gambar": "kaca.jpg",
+      "deskripsi": "Deskripsi Produk 4"
+    }
+  ]
+}
+=======
+{
+  "produk": [
+    {
+      "nama": "Produk 1",
+      "harga": 150000,
+      "gambar": "baju.jpg",
+      "deskripsi": "Deskripsi Produk 1"
+    },
+    {
+      "nama": "Produk 2",
+      "harga": 13000,
+      "gambar": "jepit.jpg",
+      "deskripsi": "Deskripsi Produk 2"
+    },
+    {
+      "nama": "Produk 3",
+      "harga": 80000,
+      "gambar": "tas.jpg",
+      "deskripsi": "Deskripsi Produk 3"
+    },
+    {
+      "nama": "Produk 4",
+      "harga": 20000,
+      "gambar": "gelas.jpg",
+      "deskripsi": "Deskripsi Produk 4"
+    },
+    {
+      "nama": "Produk 5",
+      "harga": 30000,
+      "gambar": "anting.jpg",
+      "deskripsi": "Deskripsi Produk 3"
+    },
+    {
+      "nama": "Produk 6",
+      "harga": 15000,
+      "gambar": "penghangat.jpg",
+      "deskripsi": "Deskripsi Produk 4"
+    },
+    {
+      "nama": "Produk 7",
+      "harga": 50000,
+      "gambar": "sandal.jpg",
+      "deskripsi": "Deskripsi Produk 3"
+    },
+    {
+      "nama": "Produk 8",
+      "harga": 25000,
+      "gambar": "kaca.jpg",
+      "deskripsi": "Deskripsi Produk 4"
+    }
+  ]
+}
+>>>>>>> 285d17b85c951296e3773531466df99650460303

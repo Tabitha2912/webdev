@@ -1,0 +1,80 @@
+.item1 { 
+  grid-area: biru;  
+  background-color: #3d52ca;
+}
+.item2 { 
+  grid-area: hitam; 
+  background-color: black;
+}
+.item3 { 
+  grid-area: coklat;
+  background-color: #d2691e;
+}
+.item4 { 
+  grid-area: putih; 
+}
+.item5 { 
+  grid-area: pink; 
+  background-color: #ff5eff;
+}
+.item6 { 
+  grid-area: biru2; 
+  background-color: #00bfff;
+}
+.item7 { 
+  grid-area: kuning; 
+  background-color: #efff00;
+}
+.item8 { 
+  grid-area: ungu;
+  background-color: #7e00a8;
+}
+.item9 { 
+  grid-area: merah; 
+  background-color: #ff0000;
+}
+.item10 { grid-area: abu; 
+  background-color: #a6a6a6;
+}
+.item11 { 
+  grid-area: hijau; 
+  background-color: #00c342;
+}
+.item12 { 
+  grid-area: orange; 
+  background-color: orange;
+}
+
+.white-text{
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    'biru biru hitam hitam hitam hitam'
+    'biru biru coklat coklat putih pink'
+    'biru biru coklat coklat putih biru2'
+    'kuning kuning ungu ungu putih biru2'
+    'merah merah ungu ungu abu abu'
+    'hijau hijau orange orange abu abu';
+}
+
+.grid-container > div {
+  border-color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px 35px;
+  font-size: 40px;
+}
+
+.grid-item{
+    border: 1px solid black ;
+}
+
+.center{
+  display: flex;
+  justify-content: center; /* Pusatkan horizontal */
+  align-items: center; /* Pusatkan vertikal */
+}
